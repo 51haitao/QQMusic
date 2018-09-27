@@ -1,0 +1,182 @@
+@charset "utf-8";
+html,
+body,
+p,
+div,
+nav,
+header,
+footer,
+section,
+aside,
+form,
+table,
+td,
+img,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+p,
+input,
+legend,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+em {
+    margin: 0;
+    padding: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section {
+    display: block;
+}
+
+html {
+    /* overflow-y: scroll; */
+    overflow-x: hidden;
+    overflow-y: hidden;
+    _background-image: url(about:blank);
+    _background-attachment: fixed;
+}
+
+body {
+    background: #fff;
+    color: #333;
+    font: 12px/1.75 'Microsoft Yahei', 'Helvetica Neue', "Myriad Pro", Helvetica, Arial, sans-serif;
+    cursor: pointer;
+}
+
+
+/*h1,h2,h3,h4,h5,h6,em{font-style:normal;font-weight:normal;font-size:100%;}*/
+
+img {
+    display: block;
+    border: 0;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+input,
+textarea,
+button,
+select {
+    outline: 0;
+    resize: none;
+    border: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input,
+textarea,
+select {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font: inherit;
+    resize: none;
+    outline: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:hover {
+    color: #d72340;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.mr46 {
+    margin-right: 46px;
+}
+
+.mr26 {
+    margin-right: 26px;
+}
+
+.ml46 {
+    margin-left: 46px;
+}
+
+.omit {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.h3-normal {
+    font-style: normal;
+    font-weight: normal;
+}
+
+@keyframes fadeInUp {
+    0% {
+        transform: translateY(190px)
+    }
+    100% {
+        transform: translateY(0)
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    0% {
+        -webkit-transform: translateY(190px)
+    }
+    100% {
+        -webkit-transform: translateY(0)
+    }
+}
+
+@-moz-keyframes fadeInUp {
+    0% {
+        -moz-transform: translateY(190px)
+    }
+    100% {
+        -moz-transform: translateY(0)
+    }
+}

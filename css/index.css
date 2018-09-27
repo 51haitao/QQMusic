@@ -1,0 +1,596 @@
+@charset "utf-8";
+
+/* header */
+
+header {
+    width: 100%;
+    height: 46px;
+    font-size: 14px;
+}
+
+header .logo {
+    float: left;
+    margin-top: 3px;
+    margin-left: 20px;
+}
+
+header .logo a {
+    display: inline-block;
+    width: 78px;
+    height: 21px;
+    background: url(../images/player_logo.png) no-repeat 0 0;
+    opacity: .3;
+}
+
+header .logo a:hover {
+    opacity: 1;
+}
+
+header .reg {
+    float: right;
+}
+
+header .reg li {
+    line-height: 46px;
+    float: left;
+    margin-right: 20px;
+    color: #fff;
+    opacity: .3;
+}
+
+header .reg li:hover {
+    opacity: 1;
+}
+
+
+/* body */
+
+.wrap {
+    height: 100%;
+    position: relative;
+}
+
+.wrap .wrap__con {
+    width: 1600px;
+    height: 816px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+
+/* body left */
+
+.wrap__con .con__left {
+    width: 1100px;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+
+/* left topbar */
+
+.con__left .con__left__topbar {
+    font-size: 14px;
+    width: 100%;
+    height: 36px;
+    margin-bottom: 20px;
+}
+
+.con__left__topbar span {
+    display: inline-block;
+    width: 122px;
+    height: 100%;
+    line-height: 36px;
+    text-align: center;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    border-radius: 2px;
+    color: #fff;
+    opacity: 0.2;
+}
+
+.con__left__topbar span:hover {
+    opacity: 1;
+}
+
+.con__left__topbar span i {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url(../images/icon_sprite.png) no-repeat 0 0;
+    margin-right: 10px;
+    vertical-align: -5px;
+}
+
+.con__left__topbar span:nth-child(1) i {
+    background-position: -60px -20px;
+}
+
+.con__left__topbar span:nth-child(2) i {
+    background-position: -20px -20px;
+}
+
+.con__left__topbar span:nth-child(3) i {
+    background-position: -40px -240px;
+}
+
+.con__left__topbar span:nth-child(4) i {
+    background-position: -100px -20px;
+}
+
+.con__left__topbar span:nth-child(5) i {
+    background-position: -40px -300px;
+}
+
+
+/* left musiclist */
+
+.con__left .con__left__musiclist {
+    width: 100%;
+    height: 602px;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+.con__left__musiclist .musiclist__hd li {
+    border-top: 1px solid rgba(225, 225, 225, .02);
+}
+
+.con__left__musiclist .musiclist__hd li,
+.con__left__musiclist .musiclist__bd li {
+    width: 100%;
+    height: 49px;
+    border-bottom: 1px solid rgba(225, 225, 225, .02);
+    box-sizing: border-box;
+    user-select: none;
+}
+
+.con__left__musiclist .musiclist__hd li div,
+.con__left__musiclist .musiclist__bd li div {
+    float: left;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 49px;
+}
+
+.con__left__musiclist .musiclist__hd .musiclist__hd--check {
+    /* width: 62px; */
+    width: 42px;
+    height: 100%;
+    /* text-align: center; */
+    padding-top: 3px;
+}
+
+.con__left__musiclist .musiclist__hd .musiclist__hd--check i {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+    border: 1px solid #ccc;
+    opacity: 0.5;
+}
+
+
+/* .con__left__musiclist .musiclist__hd .musiclist__hd--check i {
+    background: url("../images/icon_sprite.png") no-repeat -60px -80px;
+    opacity: 1;
+} */
+
+.con__left__musiclist .musiclist__hd .musiclist__hd--number {
+    width: 20px;
+    height: 100%;
+}
+
+.con__left__musiclist .musiclist__hd .musiclist__hd--songname {
+    width: 62%;
+    height: 100%;
+}
+
+.con__left__musiclist .musiclist__hd .musiclist__hd--singer {
+    width: 24%;
+    height: 100%;
+}
+
+.con__left__musiclist .musiclist__bd .musiclist__bd--check {
+    /* width: 62px; */
+    width: 42px;
+    height: 100%;
+    /* text-align: center; */
+    padding-top: 3px;
+}
+
+.con__left__musiclist .musiclist__bd .musiclist__bd--check i {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+    border: 1px solid #ccc;
+    opacity: 0.5;
+}
+
+.con__left__musiclist .musiclist__bd .musiclist--checked i {
+    background: url(../images/icon_sprite.png) no-repeat -60px -80px;
+    opacity: 1;
+}
+
+.con__left__musiclist .musiclist__bd .musiclist__bd--number {
+    width: 20px;
+    height: 100%;
+}
+
+.con__left__musiclist .musiclist__bd .musiclist__bd--number2 {
+    color: transparent !important;
+    background: url("../images/wave.gif") no-repeat 0 center;
+}
+
+.con__left__musiclist .musiclist__bd .musiclist__bd--songname {
+    width: 62%;
+    height: 100%;
+}
+
+.con__left__musiclist .musiclist__bd .musiclist__bd--songname .musiclist__bd--menu {
+    float: right;
+    margin-top: 5px;
+    margin-right: 20px;
+    display: none;
+}
+
+.con__left__musiclist .musiclist__bd .musiclist__bd--songname .musiclist__bd--menu a {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background: url("../images/icon_list_menu.png") no-repeat 0 0;
+    opacity: 0.5;
+}
+
+.con__left__musiclist .musiclist__bd .musiclist__bd--songname .musiclist__bd--menu a:hover {
+    opacity: 1;
+}
+
+.con__left__musiclist .musiclist__bd .musiclist__bd--songname .musiclist__bd--menu a:nth-child(1) {
+    background-position: -120px 0;
+}
+
+.con__left__musiclist .musiclist__bd .musiclist__bd--songname .musiclist__bd--menu a:nth-child(2) {
+    background-position: -120px -80px;
+}
+
+.con__left__musiclist .musiclist__bd .musiclist__bd--songname .musiclist__bd--menu a:nth-child(3) {
+    background-position: -120px -120px;
+}
+
+.con__left__musiclist .musiclist__bd .musiclist__bd--songname .musiclist__bd--menu a:nth-child(4) {
+    background-position: -120px -40px;
+}
+
+.musiclist__bd--menu .bd--menu--play2 {
+    background-position: -80px -200px !important;
+}
+
+.con__left__musiclist .musiclist__bd .musiclist__bd--singer {
+    width: 24%;
+    height: 100%;
+}
+
+.con__left__musiclist .musiclist__bd .musiclist__bd--songtime {
+    position: relative;
+}
+
+.con__left__musiclist .musiclist__bd .musiclist__bd--songtime a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 36px;
+    height: 36px;
+    background: url("../images/icon_list_menu.png") no-repeat -120px -160px;
+    margin-top: 5px;
+    display: none;
+    opacity: 0.5;
+}
+
+.con__left__musiclist .musiclist__bd .musiclist__bd--songtime a:hover {
+    opacity: 1 !important;
+}
+
+
+/* body right */
+
+.wrap__con .con__right {
+    width: 500px;
+    height: 100%;
+    float: right;
+    user-select: none;
+}
+
+.con__right .song__info {
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.con__right .song__info div a {
+    color: #fff;
+    opacity: 0.5;
+}
+
+.con__right .song__info div a:hover {
+    opacity: 1;
+}
+
+.con__right .song__info .song__info__pic {
+    display: inline-block;
+    background: url(../images/album_cover_player.png) no-repeat 0 0;
+    width: 201px;
+    height: 180px;
+    text-align: left;
+}
+
+.con__right .song__info .song__info__pic img {
+    width: 178px;
+    height: 186px;
+}
+
+.con__right .song__info .song__info__name {
+    margin-top: 15px;
+}
+
+.con__right .song__lyric__container {
+    margin-top: 50px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.con__right .song__lyric {
+    text-align: center;
+}
+
+.con__right .song__lyric li {
+    font-size: 14px;
+    font-family: 'Microsoft Yahei', 'Helvetica Neue', "Myriad Pro", Helvetica, Arial, sans-serif;
+    list-style: none;
+    line-height: 30px;
+    /* font-weight: bold; */
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.con__right .song__lyric .cur {
+    color: #31c27c;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Microsoft Yahei', 'Helvetica Neue', "Myriad Pro", Helvetica, Arial, sans-serif;
+    /* transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275); */
+    transition: all .48s cubic-bezier(0.175, 0.885, 0.32, 1.275) .48s;
+}
+
+
+/* footer */
+
+footer {
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    left: 0;
+    bottom: 60px;
+}
+
+footer .footer__con {
+    width: 1600px;
+    height: 100%;
+    margin: 0 auto;
+    user-select: none;
+}
+
+footer .footer__con a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background: url("../images/player.png") no-repeat 0 0;
+}
+
+footer .footer__con .music__btn__prev {
+    width: 19px;
+    height: 20px;
+    background-position: 0 -30px;
+}
+
+footer .footer__con .music__btn__play {
+    width: 21px;
+    height: 29px;
+    background-position: 0 0;
+    vertical-align: -5px;
+    margin-right: 0;
+}
+
+footer .footer__con .music__btn__play2 {
+    background-position: -30px 0;
+}
+
+footer .footer__con .music__btn__next {
+    width: 19px;
+    height: 20px;
+    background-position: 0 -52px;
+}
+
+footer .footer__con .music__btn__progress__info {
+    display: inline-block;
+    width: 894px;
+    height: 40px;
+    margin: 0 46px;
+    position: relative;
+    top: 5px;
+}
+
+.music__btn__progress__info .music__btn__progress__top {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.music__btn__progress__top .music__btn__progress__name {
+    float: left;
+    opacity: 0.5;
+}
+
+.music__btn__progress__top .music__btn__progress__name:hover {
+    opacity: 1;
+}
+
+.music__btn__progress__top .music__btn__progress__time {
+    float: right;
+    opacity: 0.5;
+}
+
+.music__btn__progress__info .music__btn__progress__bar {
+    width: 100%;
+    height: 3px;
+    background: rgba(255, 255, 255, 0.5);
+    margin-top: 2px;
+    position: relative;
+}
+
+.music__btn__progress__bar .music__btn__progress__line {
+    width: 0px;
+    height: 100%;
+    background: #fff;
+}
+
+.music__btn__progress__line .music__btn__progress__dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    top: -4px;
+    left: 0px;
+}
+
+footer .footer__con .music__btn__mode {
+    width: 26px;
+    height: 25px;
+    background-position: 0 -205px;
+}
+
+footer .footer__con .music__btn__mode2 {
+    width: 23px;
+    height: 20px;
+    background-position: 0 -260px;
+}
+
+footer .footer__con .music__btn__mode3 {
+    width: 25px;
+    height: 19px;
+    background-position: 0 -74px;
+}
+
+footer .footer__con .music__btn__mode4 {
+    width: 26px;
+    height: 25px;
+    background-position: 0 -232px
+}
+
+footer .footer__con .music__btn__fav {
+    width: 24px;
+    height: 21px;
+    background-position: 0 -96px;
+}
+
+footer .footer__con .music__btn__fav2 {
+    background-position: -30px -96px;
+}
+
+footer .footer__con .music__btn__down {
+    width: 22px;
+    height: 21px;
+    background-position: 0 -120px;
+}
+
+footer .footer__con .music__btn__comment {
+    width: 24px;
+    height: 24px;
+    background-position: 0 -400px;
+}
+
+footer .footer__con .music__btn__only {
+    width: 74px;
+    height: 27px;
+    background-position: 0 -281px;
+}
+
+footer .footer__con .music__btn__only2 {
+    background-position: 0 -310px;
+}
+
+footer .footer__con .music__btn__voice__info {
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    top: 8px;
+}
+
+.music__btn__voice__info .music__btn__voice__icon {
+    width: 26px;
+    height: 21px;
+    background-position: 0 -144px;
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+
+.music__btn__voice__info .music__btn__voice__icon2 {
+    background-position: 0 -182px;
+}
+
+.music__btn__voice__info .music__btn__voice__bar {
+    width: 70px;
+    height: 3px;
+    background: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+
+.music__btn__voice__bar .music__btn__voice__line {
+    width: 70px;
+    height: 100%;
+    background: #fff;
+}
+
+.music__btn__voice__line .music__btn__voice__dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #fff;
+    position: relative;
+    top: -4px;
+    left: 60px;
+}
+
+.mask_bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+    background: url("../images/xyt.jpg") no-repeat 0 0;
+    background-size: cover;
+    filter: blur(100px);
+}
+
+.mask {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.35);
+}
+
+._mCS_1 .mCSB_scrollTools .mCSB_dragger_bar {
+    width: 8px;
+}

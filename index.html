@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jQ-QQ音乐案例-HT</title>
+    <link type="text/css" rel="stylesheet" href="./css/jquery.mCustomScrollbar.css">
+    <link type="text/css" rel="stylesheet" href="./css/reset.css">
+    <link type="text/css" rel="stylesheet" href="./css/index.css">
+    <script type="text/javascript" src="./js/jquery-1.12.4.js"></script>
+</head>
+
+<body>
+    <!-- s:header -->
+    <header>
+        <h1 class="logo">
+            <a href="#"></a>
+        </h1>
+        <ul class="reg">
+            <li>登录</li>
+            <li>设置</li>
+        </ul>
+    </header>
+    <!-- e:header -->
+    <!-- s:main -->
+    <div class="wrap">
+        <div class="wrap__con">
+            <!-- s:left -->
+            <section class="con__left">
+                <div class="con__left__topbar">
+                    <span><i></i>收藏</span>
+                    <span><i></i>添加到</span>
+                    <span><i></i>下载</span>
+                    <span><i></i>删除</span>
+                    <span><i></i>清空列表</span>
+                </div>
+                <div class="con__left__musiclist" data-mcs-theme="minimal-dark">
+                    <!-- s:musiclist__hd -->
+                    <ul class="musiclist__hd clearfix">
+                        <li>
+                            <div class="musiclist__hd--check"><i></i></div>
+                            <div class="musiclist__hd--number"></div>
+                            <div class="musiclist__hd--songname">歌曲</div>
+                            <div class="musiclist__hd--singer">歌手</div>
+                            <div class="musiclist__hd--songtime">时长</div>
+                        </li>
+                    </ul>
+                    <!-- e:musiclist__hd -->
+                    <!-- s:musiclist__bd -->
+                    <ul class="musiclist__bd"></ul>
+                    <!-- e:musiclist__bd -->
+                </div>
+            </section>
+            <!-- e:left -->
+            <!-- s:right -->
+            <section class="con__right ">
+                <!-- s:song__info -->
+                <div class="song__info">
+                    <a href="javascript:void(0);" class="song__info__pic">
+                        <img src="./images/xyt.jpg" alt="">
+                    </a>
+                    <div class="song__info__name">歌曲名：
+                        <a href="javascript:void(0);">如果你爱上了别人</a>
+                    </div>
+                    <div class="song__info__singer">歌手名：
+                        <a href="javascript:void(0);">徐誉滕</a>
+                    </div>
+                    <div class="song__info__ablum">专辑名：
+                        <a href="javascript:void(0);">如果你爱上了别人</a>
+                    </div>
+                </div>
+                <!-- e:song__info -->
+                <!-- s:song__lyric -->
+                <div class="song__lyric__container">
+                    <ul class="song__lyric"></ul>
+                </div>
+                <!-- e:song__lyric -->
+            </section>
+            <!-- e:right -->
+        </div>
+    </div>
+    <!-- e:main -->
+    <!-- s:footer -->
+    <footer>
+        <div class="footer__con">
+            <a href="javascript:void(0)" class="music__btn__prev mr46"></a>
+            <a href="javascript:void(0)" class="music__btn__play"></a>
+            <a href="javascript:void(0)" class="music__btn__next ml46"></a>
+            <!-- e:progress__info -->
+            <div class="music__btn__progress__info">
+                <div class="music__btn__progress__top">
+                    <span class="music__btn__progress__name">如果你爱上了别人 - 徐誉滕</span>
+                    <span class="music__btn__progress__time">00:00 / 00:00</span>
+                </div>
+                <div class="music__btn__progress__bar">
+                    <div class="music__btn__progress__line">
+                        <div class="music__btn__progress__dot"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- e:progress__info -->
+            <a href="javascript:void(0)" class="music__btn__mode mr26"></a>
+            <a href="javascript:void(0)" class="music__btn__fav mr26"></a>
+            <a href="javascript:void(0)" class="music__btn__down mr26"></a>
+            <a href="javascript:void(0)" class="music__btn__comment mr26"></a>
+            <a href="javascript:void(0)" class="music__btn__only mr26"></a>
+            <!-- s:voice__info -->
+            <div class="music__btn__voice__info">
+                <a href="javascript:;" class="music__btn__voice__icon"></a>
+                <div class="music__btn__voice__bar">
+                    <div class="music__btn__voice__line">
+                        <div class="music__btn__voice__dot"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- e:voice__info -->
+        </div>
+    </footer>
+    <!-- e:footer -->
+    <div class="mask_bg"></div>
+    <div class="mask"></div>
+    <audio src=""></audio>
+    <script type="text/javascript" src="./js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script type="text/javascript" src="./js/player.js"></script>
+    <script type="text/javascript" src="./js/progress.js"></script>
+    <script type="text/javascript" src="./js/lyric.js"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
+</body>
+
+</html>

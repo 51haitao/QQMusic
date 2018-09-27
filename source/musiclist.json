@@ -1,0 +1,145 @@
+[{
+        "name": "我的梦",
+        "singer": "张靓颖",
+        "album": "我的梦",
+        "time": "03:39",
+        "link_url": "./source/我的梦.mp3",
+        "cover": "./source/我的梦.jpg",
+        "link_lrc": "./source/我的梦.txt"
+    },
+    {
+        "name": "经过",
+        "singer": "陈楚生 / 何洁",
+        "album": "夫妻那些事 电视剧原声带",
+        "time": "04:04",
+        "link_url": "./source/经过.mp3",
+        "cover": "./source/经过.jpg",
+        "link_lrc": "./source/经过.txt"
+    },
+    {
+        "name": "不要怕",
+        "singer": "吉克隽逸",
+        "album": "即刻出发",
+        "time": "03:44",
+        "link_url": "./source/不要怕.mp3",
+        "cover": "./source/不要怕.jpg",
+        "link_lrc": "./source/不要怕.txt"
+    },
+    {
+        "name": "飞蛾扑火",
+        "singer": "彭丽丽",
+        "album": "飞蛾扑火",
+        "time": "04:41",
+        "link_url": "./source/飞蛾扑火.mp3",
+        "cover": "./source/飞蛾扑火.jpg",
+        "link_lrc": "./source/飞蛾扑火.txt"
+    },
+    {
+        "name": "可能否",
+        "singer": "夏磊",
+        "album": "可能否",
+        "time": "03:42",
+        "link_url": "./source/可能否.mp3",
+        "cover": "./source/可能否.jpg",
+        "link_lrc": "./source/可能否.txt"
+    },
+    {
+        "name": "凉凉",
+        "singer": "杨宗纬/张碧晨",
+        "album": "凉凉",
+        "time": "05:00",
+        "link_url": "./source/凉凉.mp3",
+        "cover": "./source/凉凉.jpg",
+        "link_lrc": "./source/凉凉.txt"
+    },
+    {
+        "name": "重要的事情要说三遍",
+        "singer": "龙梅子",
+        "album": "重要的事情要说三遍",
+        "time": "03:54",
+        "link_url": "./source/重要的事情要说三遍.mp3",
+        "cover": "./source/重要的事情要说三遍.jpg",
+        "link_lrc": "./source/重要的事情要说三遍.txt"
+    },
+    {
+        "name": "最美的期待",
+        "singer": "周笔畅",
+        "album": "最美的期待",
+        "time": "03:30",
+        "link_url": "./source/最美的期待.mp3",
+        "cover": "./source/最美的期待.jpg",
+        "link_lrc": "./source/最美的期待.txt"
+    },
+    {
+        "name": "夜空中最亮的星",
+        "singer": "逃跑计划",
+        "album": "世界",
+        "time": "04:12",
+        "link_url": "./source/夜空中最亮的星.mp3",
+        "cover": "./source/夜空中最亮的星.jpg",
+        "link_lrc": "./source/夜空中最亮的星.txt"
+    },
+    {
+        "name": "牧马城市",
+        "singer": "毛不易",
+        "album": "老男孩 电视剧原声带",
+        "time": "04:18",
+        "link_url": "./source/牧马城市.mp3",
+        "cover": "./source/牧马城市.jpg",
+        "link_lrc": "./source/牧马城市.txt"
+    },
+    {
+        "name": "我是一个程序员",
+        "singer": "单小叶",
+        "album": "程序猿",
+        "time": "02:14",
+        "link_url": "./source/我是一个程序员.mp3",
+        "cover": "./source/我是一个程序员.jpg",
+        "link_lrc": "./source/我是一个程序员.txt"
+    },
+    {
+        "name": "半壶纱",
+        "singer": "刘珂矣",
+        "album": "半壶纱",
+        "time": "03:42",
+        "link_url": "./source/半壶纱.mp3",
+        "cover": "./source/半壶纱.jpg",
+        "link_lrc": "./source/半壶纱.txt"
+    },
+    {
+        "name": "唐人",
+        "singer": "孙子涵",
+        "album": "唐朝好男人",
+        "time": "03:47",
+        "link_url": "./source/唐人.mp3",
+        "cover": "./source/唐人.jpg",
+        "link_lrc": "./source/唐人.txt"
+    },
+    {
+        "name": "广东爱情故事",
+        "singer": "广东雨神",
+        "album": "广东爱情故事",
+        "time": "03:34",
+        "link_url": "./source/广东爱情故事.mp3",
+        "cover": "./source/广东爱情故事.jpg",
+        "link_lrc": "./source/广东爱情故事.txt"
+    },
+    {
+        "name": "说散就散",
+        "singer": "袁娅维",
+        "album": "说散就散",
+        "time": "04:02",
+        "link_url": "./source/说散就散.mp3",
+        "cover": "./source/说散就散.jpg",
+        "link_lrc": "./source/说散就散.txt"
+    },
+    {
+        "name": "社会摇",
+        "singer": "萧全",
+        "album": "社会摇",
+        "time": "04:09",
+        "link_url": "./source/社会摇.mp3",
+        "cover": "./source/社会摇.jpg",
+        "link_lrc": "./source/社会摇.txt"
+    }
+]
